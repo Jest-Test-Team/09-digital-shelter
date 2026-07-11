@@ -1,0 +1,24 @@
+id: "09"
+slug: digital-shelter
+name: "Digital Shelter"
+zh_name: "數位避難與最低可生存服務"
+status: concept
+maturity: blueprint
+core_question: "故障、攻擊或資源枯竭時，哪些最低服務必須保留，哪些功能應主動卸載？"
+building_concept: "Refuge, Fire Compartment and Life Safety（避難與防火區劃）"
+entities:
+  - CriticalJourney
+  - Dependency
+  - ShelterMode
+  - SheddingRule
+  - Drill
+metrics:
+  - critical_journey_availability
+  - degradation_time
+  - dependency_survivability
+  - containment_score
+  - recovery_point_gap
+governance:
+  consequential_decision: human-review-required
+  production_data: prohibited-in-blueprint
+  evidence_provenance: required
